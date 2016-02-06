@@ -18,6 +18,6 @@
       service:
         name: consul
         state: restarted
- 
+
     - name: wait for leader
       command: /usr/local/bin/consul-wait-for-leader.sh
